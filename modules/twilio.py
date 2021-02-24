@@ -1,4 +1,5 @@
 from twilio.rest import Client
+from twilio.twiml.messaging_response import MessagingResponse
 import os
 
 account = os.environ.get("TWILIO_ACCOUNT")
@@ -12,5 +13,11 @@ def send_text(message:str,number:str):
         body=message,
         messaging_service_sid = messaging_service_sid,
         to=number)
+    return 
+
+def reply_to_text(message:str):
+    response = MessagingResponse()
+    msg = response.message(message)
+    return response
 
 
