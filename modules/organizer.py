@@ -2,7 +2,7 @@
 from pydantic import BaseModel,validator
 from .db import db,db_session
 from fastapi import Depends
-from .security import get_api_key,API_KEY
+from .security import get_api_key,APIKey
 
 class Model(BaseModel):
     number:int
