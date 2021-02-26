@@ -18,7 +18,7 @@ class Event(db.Entity):
 
 
 class User(db.Entity):
-    phone_number = PrimaryKey(str, auto=True)
+    phone_number = PrimaryKey(str)
     is_organizer = Required(bool,default=False)
     events_organized = Set(Event)
     events = Set('EventUsers')
