@@ -4,14 +4,14 @@ import os
 
 account = os.environ.get("TWILIO_ACCOUNT")
 token = os.environ.get("TWILIO_TOKEN")
-messaging_service_sid = os.environ.get("MESSAGING_SERVICE_SID")
+app_phone_number = os.environ.get("APP_PHONE_NUMBER")
 
 client = Client(account,token)
 
 def send_text(message:str,number:str):
     message = client.messages.create(
         body=message,
-        messaging_service_sid = messaging_service_sid,
+        from_ = app_phone_number,
         to=number)
     return 
 
