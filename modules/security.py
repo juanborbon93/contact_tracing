@@ -1,5 +1,5 @@
 from fastapi.security.api_key import  APIKeyHeader, APIKey
-from fastapi import HTTPException
+from fastapi import HTTPException,Security
 import os
 
 API_KEY = os.environ["API_KEY"]
