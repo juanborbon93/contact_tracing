@@ -12,7 +12,7 @@ class Model(BaseModel):
             raise ValueError(f'Invalid phone number. Must be 10 digits long (including area code)')
         return v
 
-def register_organizer(body:Model,api_key:API_KEY=Depends(get_api_key)):
+def register_organizer(body:Model,api_key:APIKey=Depends(get_api_key)):
     """
     Registers phone number with event creation priviledges
 
