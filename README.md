@@ -15,18 +15,18 @@ As an admin you can register users who have event creation priviledges. This is 
 
 ## Creating an Event: 
 If your phone number is registered as an "event organizer" you can text "New" to the app number and it will create an event entry in the database. You will receive a reply explaining how attendees can sign up for the event. The event token is generated for each new event, and the app phone number is a number purchased from twilio. 
-![](docs/new_event.jpg)
+![](docs/new_event.JPG)
 
 ## Signing Up for an Event
 The event organizer can share the token and app phone number to the people who attend the event. They simply have to text the token to the app phone number to register. 
 
-![](docs/register.jpg)
+![](docs/register.JPG)
 
 ## Reporting an Infection
 Anyone who attended an event can text REPORT to the app number. The app will find the events that the user attended in the last two weeks, and notify everyone who also attended those events. 
 
-![](docs/report.jpg)
+![](docs/report.JPG)
 
 ## Getting Notified
 Once an infection is reported, the exposed users will get notified through SMS.
-![](docs/notification.jpg)
+![](docs/notification.JPG)
