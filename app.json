@@ -3,5 +3,19 @@
     "description": "An application using the twilio api to let people sign up for covid exposure alerts",
     "repository": "https://github.com/juanborbon93/contact_tracing",
     "logo": "https://github.com/juanborbon93/contact_tracing/blob/master/docs/app_logo.png?raw=true",
-    "keywords": ["python", "sms", "twilio"]
+    "keywords": ["python", "sms", "twilio"],
+    "env":{
+        "APP_PHONE_NUMBER":{
+            "description":"Twilio phone number used by app",
+        },
+        "API_KEY":{
+            "description":"API key used by app admin",
+        },
+        "TWILIO_ACCOUNT":{
+            "description":"Twilio account SID"
+        },
+        "TWILIO_TOKEN":{
+            "description":"Twilio API token"
+        }
+    }
   }
