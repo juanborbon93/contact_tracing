@@ -11,7 +11,7 @@ There are three types of users for this app:
 ## Registering Event Organizers
 As an admin you can register users who have event creation priviledges. This is done through the web api. The api has an open-api UI that can be used for this purpose. The POST request for this action is protected through an API key. The open-api UI can handle the authentification.
 
-![](docs/admin_signup.jpg)
+![](docs/admin_signup.JPG)
 
 ## Creating an Event: 
 If your phone number is registered as an "event organizer" you can text "New" to the app number and it will create an event entry in the database. You will receive a reply explaining how attendees can sign up for the event. The event token is generated for each new event, and the app phone number is a number purchased from twilio. 
