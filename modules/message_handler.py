@@ -55,7 +55,7 @@ def report_infection(number):
         if n_exposed_events == 0:
             response = reply_to_text(f"You did not attend any events in the last 14 days")
         else:
-            response = reply_to_text(f"Alerted people who attended the {len(exposed_events)} that you attended in the last 14 days.")
+            response = reply_to_text(f"Alerted people who attended the {len(exposed_events)} events that you attended in the last 14 days.")
     else:
         response = reply_to_text(f"You have not registered for any events")
     return response 
