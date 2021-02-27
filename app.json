@@ -1,0 +1,7 @@
+{
+    "name": "sms contact tracing",
+    "description": "An application using the twilio api to let people sign up for covid exposure alerts",
+    "repository": "https://github.com/juanborbon93/contact_tracing",
+    "logo": "https://node-js-sample.herokuapp.com/node.png",
+    "keywords": ["python", "sms", "twilio"]
+  }
