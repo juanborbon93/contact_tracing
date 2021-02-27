@@ -30,3 +30,14 @@ Anyone who attended an event can text REPORT to the app number. The app will fin
 ## Getting Notified
 Once an infection is reported, the exposed users will get notified through SMS.
 ![](docs/notification.JPG)
+
+# Deploying the app:
+Twilio has some restrictions on creating sms bots (for very good reasons). To deploy the app, you will probably have to get it approved.
+1. Create a Twilio account and get the following:
+    - Account SID
+    - twilio api token
+    - twilio phone number 
+2. Deploy your own version of the app by clicking below: 
+    - [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+3. Once the app is deployed, you will have to connect your twilio phone number to the webhook address that handles the messaging logic {your_app_addres}/hook. 
+![](docs/register_webhook.PNG)
