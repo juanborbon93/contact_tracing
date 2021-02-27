@@ -6,10 +6,10 @@
     "keywords": ["python", "sms", "twilio"],
     "env":{
         "APP_PHONE_NUMBER":{
-            "description":"Twilio phone number used by app",
+            "description":"Twilio phone number used by app"
         },
         "API_KEY":{
-            "description":"API key used by app admin",
+            "description":"API key used by app admin"
         },
         "TWILIO_ACCOUNT":{
             "description":"Twilio account SID"
