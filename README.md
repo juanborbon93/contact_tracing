@@ -1,6 +1,6 @@
 # SMS Contact Tracing App
 An application using the twilio api to let people sign up for covid exposure alerts. 
-The motivation for making this was mostly educational since I wanted to learn how to send programable texts while also making something functional. If you find it useful, you can may use this code to deploy your own contact tracing sms bot (at your own risk).
+The motivation for making this was mostly educational since I wanted to learn how to send programable texts while also making something functional. If you find it useful, you may use this code to deploy your own contact tracing sms bot (at your own risk).
 
 # How it works
 There are three types of users for this app:
