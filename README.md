@@ -15,6 +15,7 @@ As an admin you can register users who have event creation priviledges. This is 
 
 ## Creating an Event: 
 If your phone number is registered as an "event organizer" you can text "New" to the app number and it will create an event entry in the database. You will receive a reply explaining how attendees can sign up for the event. The event token is generated for each new event, and the app phone number is a number purchased from twilio. 
+
 ![](docs/new_event.JPG)
 
 ## Signing Up for an Event
