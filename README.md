@@ -29,6 +29,7 @@ Anyone who attended an event can text REPORT to the app number. The app will fin
 
 ## Getting Notified
 Once an infection is reported, the exposed users will get notified through SMS.
+
 ![](docs/notification.JPG)
 
 # Deploying the app:
